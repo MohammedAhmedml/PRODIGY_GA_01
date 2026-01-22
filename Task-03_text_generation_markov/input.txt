@@ -1,0 +1,8 @@
+Artificial intelligence is a field of computer science that focuses on building systems that can perform tasks that normally require human intelligence.
+Machine learning is a subset of AI where models learn patterns from data instead of being explicitly programmed.
+In text generation, we can train statistical models to predict the next word based on previous words.
+A Markov chain is one such statistical model. It assumes the next state depends only on a fixed number of previous states.
+In this task, I build an n-gram Markov model from training text and generate new sentences by sampling from learned probabilities.
+Prompt quality and dataset quality affect how coherent the generated text becomes.
+Reproducibility is important, so we set a random seed when generating output.
+This project demonstrates a simple baseline for text generation before using large language models.
