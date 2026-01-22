@@ -1,0 +1,22 @@
+Task-02: Image Generation with Pre-trained Models
+
+Model: runwayml/stable-diffusion-v1-5
+Library: Hugging Face diffusers
+Platform: Google Colab (GPU)
+
+Parameters:
+- num_inference_steps: 30
+- guidance_scale (CFG): 7.5
+- Negative prompt: blurry, low quality, distorted, watermark, text, extra fingers, extra limbs
+- Seeds: varied per image for reproducibility
+
+Outputs and prompts:
+01_test.png - A futuristic neon-lit city street at night, cinematic lighting, ultra detailed
+02_portrait.png - Studio portrait of a 22-year-old man, softbox lighting, 85mm lens, shallow depth of field, ultra realistic
+03_mountains.png - A misty mountain valley at sunrise, volumetric fog, high detail, realistic, wide angle
+04_watch.png - A luxury wristwatch on a reflective black surface, studio lighting, product photography, sharp focus
+05_castle.png - A medieval castle floating in the sky above clouds, epic fantasy concept art, dramatic lighting
+06_cyberpunk.png - Rainy cyberpunk alley with neon signs, cinematic, highly detailed, reflections, night
+07_cartoon_robot.png - A cute cartoon robot reading a book in a library, bright colors, clean outlines, 2D illustration
+08_house.png - Modern minimalist house with glass walls, sunset lighting, architectural visualization, high detail
+09_burger.png - A gourmet burger with melting cheese and fresh vegetables, commercial food photography, shallow depth of field
